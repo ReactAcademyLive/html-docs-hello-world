@@ -20,6 +20,6 @@ jobs:
         uses: azure/webapps-deploy@v2
         with:
           app-name: 'eric2-app'
-          slot-name: 'production'
+          slot-name: 'next'
           publish-profile: ${{ secrets.AzureAppService_PublishProfile_f20b1a5dfe614ad9a497c17319ee4516 }}
           package: .
